@@ -1,1 +1,1 @@
-# DNS Anomaly Detection using a Sequence-to-Sequence Model
+DNS Anomaly Detection using a Sequence-to-Sequence Model
