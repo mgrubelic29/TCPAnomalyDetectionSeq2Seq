@@ -17,13 +17,17 @@ The following sections of this file will explain the order of files that need to
 ## DARPADatasetParser.ipynb 
 * **Step 1:** Open up the DARPADatasetParser.ipynb notebook in Google Colab.
 * **Step 2:** Download the "week1mon.csv" file and import it into the notebook. This is done by going to the Files | Upload | "../week1mon.csv" menu located to the left of Google Colab. (This is how you will import the other files in the project). 
+* **Step 3:** Run all of the cells within the notebook. 
+* **Step 4:** In the final code cell of the notebook, a file titled "testing_sequences.csv" will be created and uploaded into the Files folder of Google Colab. Download this file onto your local machine, it will be used as the input for the next notebook. 
+
 
 ## Seq2SeqTraining
 * **Step 1:** Open up the Seq2SeqTraining.ipynb notebook in Google Colab.
 * **Step 2:** Import the csv you get from the parser. (week1mon_seqs.csv)
 * **Step 3:** Run all of the cells within the notebook.
-* **Step 4:** In the Training Overhead cell there will be snapshots of the model being saved at 20%, 40%, 55%, 70%, 85%, and 100%. Each percentage represents the number of iterations the model is currently at.
+* **Step 4:** In the "Training Overhead" cell there will be snapshots of the model being saved at 20%, 40%, 55%, 70%, 85%, and 100%. Each percentage represents the number of iterations the model is currently at.
 * **Step 5:** Finish running the final cell of the notebook. This is where the model will run the "main" function of the code and generate the trained model parameters. 
+
 
 ## Seq2SeqTesting
 * **Step 1:** Open up the Seq2SeqTesting.ipynb notebook in Google Colab.
