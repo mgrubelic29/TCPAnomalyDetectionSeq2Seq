@@ -19,3 +19,16 @@ The following sections of this file will explain the order of files that need to
 ## DARPADatasetParser.ipynb 
 * **Step 1:** Load the notebook into a Google Colab notebook 
 * **Step 2:** Download the 
+
+## Seq2SeqTraining
+* **Step 1:** Open up the Seq2SeqTraining.ipynb notebook.
+* **Step 2:** Inport the csv you get from the parser. (week1mon_seqs.csv)
+* **Step 3:** Run all of the cells within the notebook.
+* **Step 4:** In the Training Overhead cell there will be nsnapshots opf the model being saved at 20%, 40%, 55%, 70%, 85%, and 100%.
+* **Step 5:** Finish running the final cell of the notebook.
+
+## Seq2SeqTesting
+* **Step 1:** Open up the Seq2SeqTesting.ipynb notebook.
+* **Step 2:** Import the csv named "testing_sequences.csv".
+* **Step 3:** In the Load the models cell change the encoder1.load_state_dict and the decoder1.load_state_dict to any of the saved snapshot models from the Seq2SeqTraining notebook.
+* **Step 4:** Run all the cells.
