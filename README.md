@@ -14,6 +14,12 @@ The project has **three main pieces of code:** The "DARPADatatsetParser.ipynb", 
 
 The following sections of this file will explain the order of files that need to be executed and how to execute them. 
 
+## DARPA 1999 Dataset link
+**Link to main page of dataset:** https://www.ll.mit.edu/r-d/datasets/1999-darpa-intrusion-detection-evaluation-dataset 
+**First week of data (attack free): ** https://archive.ll.mit.edu/ideval/data/1999/training/week1/index.html
+**Second week of data (labeled attacks): ** https://archive.ll.mit.edu/ideval/data/1999/training/week2/index.html
+**Third week of data (attack free): ** https://archive.ll.mit.edu/ideval/data/1999/training/week3/index.html
+
 ## DARPADatasetParser.ipynb 
 * **Step 1:** Open up the DARPADatasetParser.ipynb notebook in Google Colab.
 * **Step 2:** Download the "week1mon.csv" file and import it into the notebook. This is done by going to the Files | Upload | "../week1mon.csv" menu located to the left of Google Colab. (This is how you will import the other files in the project). 
